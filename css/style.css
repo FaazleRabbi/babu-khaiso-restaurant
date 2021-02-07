@@ -1,0 +1,56 @@
+body{
+    background-color: bisque;
+}
+.babuInput{
+    margin: auto;
+}
+.babuNav{
+    position: absolute;
+    right: 0;
+    width: 30vw;
+}
+#searchBtn{
+    cursor: pointer;
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    
+}
+#main img{
+    width: 80%;
+    position: relative;
+    border-radius: 20px;
+    
+}
+.foodCart{
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.half-width{
+    width: 35vw;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 20px;
+}
+.cartInfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+    background-color:gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+.cartInfo li{
+    font-size: 30px;
+}
+.cartInfo img{
+    width: 80%;
+    border-radius: 20px;
+}
+
